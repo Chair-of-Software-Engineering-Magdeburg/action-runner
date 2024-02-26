@@ -4,6 +4,6 @@ template:
   spec:
     containers:
       - name: runner
-        image: "ghcr.io/Chair-of-Software-Engineering-Magdeburg/actions-runner:latest"
+        image: "ghcr.io/chair-of-software-engineering-magdeburg/action-runner/action-runner:latest"
         imagePullPolicy: Always
         command: ["/home/runner/run.sh"]
