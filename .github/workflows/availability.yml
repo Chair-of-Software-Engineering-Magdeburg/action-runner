@@ -1,7 +1,7 @@
 name: Check availability
 
 on:
-  shedule:
+  schedule:
     - cron: '0 4 * * *'
   workflow_dispatch:
 
