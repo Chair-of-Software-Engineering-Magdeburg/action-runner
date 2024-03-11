@@ -7,5 +7,6 @@ RUN sudo apt update -y && \
     sudo apt update -y && \
     sudo apt install -y \
         dotnet-sdk-7.0 \
-        nodejs && \
+        nodejs \
+        default-jre && \
     sudo npm -g install pnpm
